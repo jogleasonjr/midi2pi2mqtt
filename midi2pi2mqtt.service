@@ -1,0 +1,11 @@
+[Unit]
+Description=Midi-to-Pi-to-MQTT Service
+After=multi-user.target
+
+[Service]
+Type=idle
+ExecStart=/usr/bin/python /home/pi/git/midi2pi2mqtt/run.py
+User=pi
+
+[Install]
+WantedBy=multi-user.target
