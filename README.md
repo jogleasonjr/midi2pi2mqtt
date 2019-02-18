@@ -1,9 +1,10 @@
 ## Midi-to-Pi-to-MQTT
 
-Publish MIDI messages to MQTT using a Raspberry Pi.
+Publish input from MIDI devices to MQTT using a Raspberry Pi.
 
 ### Dependencies
-
+* mido
+* paho.mqtt.client
 
 ### To Run
 
@@ -25,6 +26,6 @@ The `-f` switch for `journalctl` will follow/tail the logs.
 
 ### TODO
 
-* Add configuration option for the MIDI device
-* Add configuration options for the MQTT host and topic
+* Add installation script for service
+* Add configuration options for the MIDI device,  MQTT host, and topic
 * Add `systemd` logging
