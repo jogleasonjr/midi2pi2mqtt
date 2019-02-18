@@ -1,6 +1,6 @@
 ## Midi-to-Pi-to-MQTT
 
-Publish input from MIDI devices to MQTT using a Raspberry Pi.
+Publish input from MIDI devices to MQTT using a Raspberry Pi. This allows you to map buttons, faders, and knobs to your home automation system. For example, I use this with a PadKontrol to control hue bulb brightness (knobs) and control a Volumio server (pad buttons).
 
 ### Dependencies
 * mido
