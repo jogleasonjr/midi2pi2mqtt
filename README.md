@@ -12,11 +12,13 @@ Publish input from MIDI devices to MQTT using a Raspberry Pi. This allows you to
 
 ### To install as a systemd service
 
-`cp midi2pi2mqtt.service /lib/systemd/system`
-`chmod 644 /lib/systemd/system/midi2pi2mqtt.service`
-`systemctl enable midi2pi2mqtt`
-`systemctl daemon-reload`
-`systemctl start midi2pi2mqtt`
+```bash
+cp midi2pi2mqtt.service /lib/systemd/system
+chmod 644 /lib/systemd/system/midi2pi2mqtt.service
+systemctl enable midi2pi2mqtt
+systemctl daemon-reload
+systemctl start midi2pi2mqtt
+```
 
 ### To view service logs (i.e. journal entries for this service)
 
